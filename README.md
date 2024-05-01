@@ -10,14 +10,7 @@
 
 ### 1. Breve descripción de la actividad
 
-Como se ha observado a lo largo del curso, son varios los ambientes en los cuales se puede desplegar una aplicación, desde servidores en data centers propios (on-premise), servidores en nube con muchos servidores propios o administrados para mejorar su disponibilidad, menores costos, tiempos de despliegue de aplicaciones etc.
-
-En el reto 3, se desplegó una versión dockerizada de un CMS o LMS, con un balanceador simple de cargas, sin autoescalamiento y con dependencia de la base de datos y el sistema de archivos distribuido.
-En este reto 4, uds desplegarán la misma aplicación del reto 3 pero en un clúster Kubernetes en nube. Se utilizará un servicio administrado en nube como EKS de AWS o Kubernets de GCP.
-
-Debe cumplir los mismos requerimientos del reto 3, respecto a contar con nombre de dominio, https, balanceador, base de datos externa y sistema de archivos externos a la capa de servicios (app).
-
-Los clústeres Kubernetes hoy en día se están empleando mucho, porque con un diseño relativamente simple y con un mecanismo de Manifiestos o lenguajes declarativos, podemos soportar grandes escalamientos, tanto por el incremento de capacidad de nodos en el clúster de Kubernetes, así como el escalamiento dentro del clúster Kubernetes de las aplicaciones contenerizadas.
+Se desplegará la misma aplicación que en el reto 3, pero en un clúster Kubernetes en la nube utilizando servicios administrados como EKS de AWS o GCP, lo que permite cumplir con los mismos requisitos de contar con un nombre de dominio, HTTPS, un balanceador de carga, una base de datos externa y un sistema de archivos externo a la capa de servicios de la aplicación, aprovechando la capacidad de escalado eficiente y la rápida implementación que ofrece Kubernetes para gestionar y escalar las aplicaciones contenerizadas.
 
 #### 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
