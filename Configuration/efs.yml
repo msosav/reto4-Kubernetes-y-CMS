@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: reto-4-efs
+  # No namespace, PVs are global
+spec:
+  accessModes:
+  - ReadWriteMany
+  capacity:
+    storage: 1Mi
+  nfs:
+    path: /
+    server: fs-0c6fd0dd1670d401e.efs.us-east-1.amazonaws.com
+  claimRef:
+    name: reto-4-efs
+    namespace: reto-4
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: reto-4-efs
+  namespace: reto-4
+spec:
+  storageClassName: ""
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 1Mi
