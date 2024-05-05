@@ -19,7 +19,7 @@ spec:
             - containerPort: 80
           env:
             - name: WORDPRESS_DB_HOST
-              value: reto-4.creaemiskqh1.us-east-1.rds.amazonaws.com
+              value: reto-4-rds.creaemiskqh1.us-east-1.rds.amazonaws.com
             - name: WORDPRESS_DB_USER
               value: wordpressuser
             - name: WORDPRESS_DB_PASSWORD
