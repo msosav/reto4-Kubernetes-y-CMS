@@ -14,7 +14,8 @@ spec:
         - reto4.temporaladventures.tech
       secretName: reto4-temporaladventures-tech-tls
   rules:
-    - http:
+    - host: reto4.temporaladventures.tech
+      http:
         paths:
           - path: /
             pathType: Prefix
