@@ -14,7 +14,14 @@ Se desplegará la misma aplicación que en el reto 3, pero en un clúster Kubern
 
 #### 1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
 
+- [x] Se desplegó la aplicación en un clúster Kubernetes en la nube.
+- [x] Se utilizó un servicio administrado como EKS de AWS o GCP.
+- [x] Se cumplió con los mismos requisitos de contar con un nombre de dominio, HTTPS, un balanceador de carga, una base de datos externa y un sistema de archivos externo a la capa de servicios de la aplicación.
+- [x] Se implementó el certificado SSL para el dominio.
+
 #### 1.2. Que aspectos NO cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)
+
+Se cumplió con todos los requerimientos propuestos por el profesor.
 
 ### 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
