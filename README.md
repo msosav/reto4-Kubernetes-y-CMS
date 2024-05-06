@@ -6,7 +6,7 @@
 
 **Profesor: Edwin Montoya, emontoya@eafit.edu.co**
 
-## Reto 4
+## Reto 4 - Kubernetes
 
 ### 1. Breve descripción de la actividad
 
