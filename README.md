@@ -25,6 +25,10 @@ Se cumplió con todos los requerimientos propuestos por el profesor.
 
 ### 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
+#### Arquitectura
+
+![Arquitectura](https://github.com/msosav/reto4-Kubernetes-y-CMS/assets/85181687/2bab351d-4331-4d0f-a02c-de7816362210)
+
 ### 3. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
 #### Configuración
