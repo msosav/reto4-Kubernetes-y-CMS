@@ -36,7 +36,7 @@ Se cumplió con todos los requerimientos propuestos por el profesor.
 
 #### Ejecución
 
-Cuando se ejectute el servicio se debe ejecutar en este orden:
+Cuando se ejectute el servicio se debe ejecutar en el siguiente orden:
 
 ```bash
 kubectl apply -f efs.yaml
