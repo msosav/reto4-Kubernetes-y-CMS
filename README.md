@@ -34,6 +34,7 @@ Cuando se ejectute el servicio se debe ejecutar en este orden:
 ```bash
 kubectl apply -f efs.yaml
 kubectl apply -f wordpress.yaml
+kubectl apply -f cluster-issuer.yaml
 kubectl apply -f nginx.yaml
 ```
 
