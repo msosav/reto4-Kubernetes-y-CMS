@@ -18,23 +18,27 @@ Se desplegará la misma aplicación que en el reto 3, pero en un clúster Kubern
 
 ### 2. Información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 
-### 3. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
+### 3. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 
-- Como se compila y ejecuta.
-- Detalles del desarrollo.
-- Detalles técnicos
-- Descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
-- Opcional - detalles de la organización del código por carpetas o descripción de algún archivo. (ESTRUCTURA DE DIRECTORIOS Y ARCHIVOS IMPORTANTE DEL PROYECTO, comando 'tree' de linux)
-- Opcional - si quiere mostrar resultados o pantallazos
+#### Configuración
 
-### 4. Descripción del ambiente de ejecución (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
+- [Base de datos](https://github.com/msosav/reto4-Kubernetes-y-CMS/blob/main/Documentation/database.md)
+- [Sistema de archivos](https://github.com/msosav/reto4-Kubernetes-y-CMS/blob/main/Documentation/nfs.md)
+- [Wordpress](https://github.com/msosav/reto4-Kubernetes-y-CMS/blob/main/Documentation/wordpress.md)
+- [Load Balancer](https://github.com/msosav/reto4-Kubernetes-y-CMS/blob/main/Documentation/loadbalancer.md)
 
-- IP o nombres de dominio en nube o en la máquina servidor.
-- Descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
-- Como se lanza el servidor.
-- Una mini guia de como un usuario utilizaría el software o la aplicación
-- Opcional - si quiere mostrar resultados o pantallazos
+#### Ejecución
 
-### 5. Otra información que considere relevante para esta actividad.
+Cuando se ejectute el servicio se debe ejecutar en este orden:
+
+```bash
+kubectl apply -f efs.yaml
+kubectl apply -f wordpress.yaml
+kubectl apply -f nginx.yaml
+```
+
+#### Pantallazos
+
+![image](https://github.com/msosav/reto4-Kubernetes-y-CMS/assets/85181687/97e10019-e9ac-46c7-bcb3-4de10b1ccf1c)
 
 ## Referencias:
